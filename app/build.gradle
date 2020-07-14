@@ -27,7 +27,7 @@ ext {
 apply plugin: 'com.android.application'
 apply plugin: 'com.github.gfx.ribbonizer'
 apply plugin: 'jacoco-android'
-apply plugin: 'com.diffplug.gradle.spotless'
+apply plugin: 'com.diffplug.spotless'
 apply from: '../config/quality.gradle'
 
 repositories {
